@@ -1,0 +1,31 @@
+partial alphanumeric_keys
+xkb_symbols "us" {
+    include "us"
+
+    name[Group1]="German (US keyboard with German letters, phijor adaptions)";
+
+    // Umlaute ä (AltR + a), ö (AltR + o), ü (AltR + u)
+    key <AC01> { [           a,          A, adiaeresis, Adiaeresis ] };
+    key <AD09> { [           o,          O, odiaeresis, Odiaeresis ] };
+    key <AD07> { [           u,          U, udiaeresis, Udiaeresis ] };
+
+    // Eszett: ß (AltR + s)
+    key <AC02> { [           s,          S,     ssharp,  0x1001E9E ] };
+
+    // standard umlaut + eszett location
+    key <AC11> { [  apostrophe,   quotedbl, adiaeresis, Adiaeresis ] };
+    key <AC10> { [   semicolon,      colon, odiaeresis, Odiaeresis ] };
+    key <AD11> { [ bracketleft,  braceleft, udiaeresis, Udiaeresis ] };
+    key <AE11> { [       minus, underscore,     ssharp,   question ] };
+
+    // Euro sign
+    key <AD03> { [           e,          E,   EuroSign,   EuroSign ] };
+    key <AE03> { [           3, numbersign,    section,    section ] };
+
+    // SWAP_YZ: key <AD06> { [           z,          Z] };
+    // SWAP_YZ: key <AB01> { [           y,          Y] };
+
+    include "level3(ralt_switch)"
+};
+
+// vim: set filetype=xkb sw=4 ts=4 et:

@@ -1,0 +1,12 @@
+pkgbase = xkeyboard-layout-phijor
+	pkgdesc = Xkeyboard US layout with German letters, phijor adaptions
+	pkgver = 1.0
+	pkgrel = 1
+	arch = any
+	license = custom
+	depends = xkeyboard-config
+	source = phijor.xkb
+	sha256sums = c8450fa7fc34793de7cbeef97cf9995230d51c7693947f36c6e356cc8fb635f4
+
+pkgname = xkeyboard-layout-phijor
+
