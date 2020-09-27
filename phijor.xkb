@@ -35,12 +35,23 @@ xkb_symbols "us" {
     key <AD01> { [           q,          Q,          q, U211A ] }; // Q
     key <AD04> { [           r,          R,          r, U211D ] }; // R
     key <AB01> { [           z,          Z,          z, U2124 ] }; // Z
+    key <AB03> { [           c,          C,     U1D4D2, U2102 ] }; // 𝓒, ℂ
     key <AB06> { [           n,          N,          n, U2115 ] }; // N
 
+    // Arrows
+    key <AD08> { [           i,          I,      U2194, U21D4 ] }; // ↔, ⇔
+    key <AC06> { [           h,          H,      U2190, U21D0 ] }; // ←, ⇐
+    key <AC07> { [           j,          J,      U2193, U21D3 ] }; // ↓, ⇓
+    key <AC08> { [           k,          K,      U2191, U21D1 ] }; // ↑, ⇑
+    key <AC09> { [           l,          L,      U2192, U21D2 ] }; // →, ⇒
+    key <AB07> { [           m,          M,      U21A6,     M ] }; // ↦
+
     // Other symbols
-    key <AD05> { [           t,          T,      U2192, U21D2 ] }; // →, ⇒
-    key <AB08> { [       comma,       less,      U2264, U27E8 ] }; // ≤, ⟨
-    key <AB09> { [      period,    greater,      U2265, U27E9 ] }; // ≥, ⟩
+    key <AD05> { [           t,          T,      multiply, U2297 ] }; // ×, ⊗
+    key <AD09> { [           o,          O,      U2218,    O     ] }; // ∘
+    key <AC04> { [           f,          F,      U2200,    U2203 ] }; // ∀, ∃
+    key <AB08> { [       comma,       less,      U2264,    U27E8 ] }; // ≤, ⟨
+    key <AB09> { [      period,    greater,      U2265,    U27E9 ] }; // ≥, ⟩
 
     // Super/subscripts
     key <AE01> { [           1,         exclam,  U2081,         U2071 ] };
