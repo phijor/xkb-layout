@@ -35,7 +35,7 @@ xkb_symbols "us" {
     key <AD01> { [           q,          Q,          q, U211A ] }; // Q
     key <AD04> { [           r,          R,          r, U211D ] }; // R
     key <AB01> { [           z,          Z,          z, U2124 ] }; // Z
-    key <AB03> { [           c,          C,     U1D4D2, U2102 ] }; // 𝓒, ℂ
+    key <AB03> { [           c,          C,      U2218, U2102 ] }; // ∘, ℂ
     key <AB06> { [           n,          N,          n, U2115 ] }; // N
 
     // Arrows
@@ -48,7 +48,6 @@ xkb_symbols "us" {
 
     // Other symbols
     key <AD05> { [           t,          T,      multiply, U2297 ] }; // ×, ⊗
-    key <AD09> { [           o,          O,      U2218,    O     ] }; // ∘
     key <AC04> { [           f,          F,      U2200,    U2203 ] }; // ∀, ∃
     key <AB08> { [       comma,       less,      U2264,    U27E8 ] }; // ≤, ⟨
     key <AB09> { [      period,    greater,      U2265,    U27E9 ] }; // ≥, ⟩
