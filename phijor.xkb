@@ -51,6 +51,7 @@ xkb_symbols "us" {
     key <AC04> { [           f,          F,      U2200,    U2203 ] }; // ∀, ∃
     key <AB08> { [       comma,       less,      U2264,    U27E8 ] }; // ≤, ⟨
     key <AB09> { [      period,    greater,      U2265,    U27E9 ] }; // ≥, ⟩
+    key <AE12> { [      equals,       plus,      U2260,    U2295 ] }; // ≠, ⊕
 
     // Super/subscripts
     key <AE01> { [           1,         exclam,  U2081,         U2071 ] };
