@@ -14,10 +14,14 @@ xkb_symbols "us" {
 
     name[Group1]="German (US keyboard with German letters, phijor adaptions)";
 
-    // Umlaute ä (AltR + a), ö (AltR + o), ü (AltR + u)
+    // Umlaute ä (AltR + a), ö (AltR + o), ü (AltR + u),
+    //         õ (AltR + p), š (AltR + c), ž (AltR + z)
     key <AC01> { [           a,          A, adiaeresis, Adiaeresis ] };
+    key <AD10> { [           p,          P, otilde,     Otilde     ] };
     key <AD09> { [           o,          O, odiaeresis, Odiaeresis ] };
     key <AD07> { [           u,          U, udiaeresis, Udiaeresis ] };
+    key <AB03> { [           c,          C, scaron,     Scaron ] };
+    key <AB01> { [           z,          Z, zcaron,     Scaron ] };
 
     // Eszett: ß (AltR + s)
     key <AC02> { [           s,          S,     ssharp,  0x1001E9E ] };
@@ -34,8 +38,6 @@ xkb_symbols "us" {
     // Double-struck letters
     key <AD01> { [           q,          Q,          q, U211A ] }; // Q
     key <AD04> { [           r,          R,          r, U211D ] }; // R
-    key <AB01> { [           z,          Z,          z, U2124 ] }; // Z
-    key <AB03> { [           c,          C,      U2218, U2102 ] }; // ∘, ℂ
     key <AB06> { [           n,          N,          n, U2115 ] }; // N
 
     // Arrows
