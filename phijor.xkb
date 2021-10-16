@@ -56,7 +56,7 @@ xkb_symbols "us" {
     key <AE12> { [      equals,       plus,      U2260,    U2295 ] }; // ≠, ⊕
 
     // Super/subscripts
-    key <AE01> { [           1,         exclam,  U2081,         U2071 ] };
+    key <AE01> { [           1,         exclam,  U2081,   onesuperior ] };
     key <AE02> { [           2,             at,  U2082,   twosuperior ] };
     key <AE03> { [           3,     numbersign,  U2083, threesuperior ] };
     key <AE04> { [           4,         dollar,  U2084,         U2074 ] };
