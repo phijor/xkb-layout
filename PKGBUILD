@@ -1,7 +1,7 @@
 # Maintainer: Philipp Joram <philipp.joram at mailbox.tu-dresden.de>
 
 pkgname=xkeyboard-layout-phijor
-pkgver=1.3.1
+pkgver=1.3.2
 pkgrel=1
 pkgdesc='Xkeyboard US layout with German letters, phijor adaptions'
 arch=(any)
@@ -9,7 +9,7 @@ license=(custom)
 depends=('xkeyboard-config')
 
 source=("phijor.xkb")
-sha256sums=('2b4459550b1587b3bf80a8a205b349c44630ba0953df2eb5f8a5a660ff466837')
+sha256sums=('8d1cfb834d07f41bd7ea07156e1bc46c7100f1848061919676e49fb4aab8a002')
 
 package() {
     local _XKB_DIR="$pkgdir/usr/share/X11/xkb/symbols"
